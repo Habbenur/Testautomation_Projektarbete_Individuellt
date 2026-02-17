@@ -1,0 +1,6 @@
+pytest==8.3.2
+requests==2.32.3
+pydantic>=2.12
+faker==26.0.0
+python-dotenv==1.0.1
+playwright>=1.50

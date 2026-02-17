@@ -1,0 +1,13 @@
+[project]
+name = "loan-lab-tests"
+version = "0.1.0"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+addopts = "-ra -q"
+testpaths = ["tests"]
+pythonpath = ["src"]
+markers = [
+  "api: API tests",
+  "ui: UI tests"
+]
